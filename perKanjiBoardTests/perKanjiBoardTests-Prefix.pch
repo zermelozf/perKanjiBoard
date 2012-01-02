@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'perKanjiBoardTests' target in the 'perKanjiBoardTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

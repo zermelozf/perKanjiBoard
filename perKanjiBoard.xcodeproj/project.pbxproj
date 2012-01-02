@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181FF95514B1780700361388 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181FF95414B1780700361388 /* UIKit.framework */; };
+		181FF95714B1780700361388 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181FF95614B1780700361388 /* Foundation.framework */; };
+		181FF95914B1780700361388 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181FF95814B1780700361388 /* CoreGraphics.framework */; };
+		181FF95B14B1780700361388 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181FF95A14B1780700361388 /* CoreData.framework */; };
+		181FF96114B1780800361388 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181FF95F14B1780800361388 /* InfoPlist.strings */; };
+		181FF96414B1780800361388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF96314B1780800361388 /* main.m */; };
+		181FF96714B1780800361388 /* perKanjiBoardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF96614B1780800361388 /* perKanjiBoardAppDelegate.m */; };
+		181FF96A14B1780800361388 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181FF96814B1780800361388 /* MainWindow.xib */; };
+		181FF96D14B1780800361388 /* perKanjiBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 181FF96B14B1780800361388 /* perKanjiBoard.xcdatamodeld */; };
+		181FF97414B1780800361388 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181FF95414B1780700361388 /* UIKit.framework */; };
+		181FF97514B1780800361388 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181FF95614B1780700361388 /* Foundation.framework */; };
+		181FF97614B1780800361388 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181FF95814B1780700361388 /* CoreGraphics.framework */; };
+		181FF97714B1780800361388 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181FF95A14B1780700361388 /* CoreData.framework */; };
+		181FF97F14B1780800361388 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181FF97D14B1780800361388 /* InfoPlist.strings */; };
+		181FF98214B1780800361388 /* perKanjiBoardTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 181FF98114B1780800361388 /* perKanjiBoardTests.h */; };
+		181FF98414B1780800361388 /* perKanjiBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF98314B1780800361388 /* perKanjiBoardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181FF97814B1780800361388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181FF94714B1780700361388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181FF94F14B1780700361388;
+			remoteInfo = perKanjiBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181FF95014B1780700361388 /* perKanjiBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = perKanjiBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181FF95414B1780700361388 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		181FF95614B1780700361388 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		181FF95814B1780700361388 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		181FF95A14B1780700361388 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		181FF95E14B1780800361388 /* perKanjiBoard-Info.plist */ = {isa = PBXFileReference; path = "perKanjiBoard-Info.plist"; sourceTree = "<group>"; };
+		181FF96014B1780800361388 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		181FF96214B1780800361388 /* perKanjiBoard-Prefix.pch */ = {isa = PBXFileReference; path = "perKanjiBoard-Prefix.pch"; sourceTree = "<group>"; };
+		181FF96314B1780800361388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181FF96514B1780800361388 /* perKanjiBoardAppDelegate.h */ = {isa = PBXFileReference; path = perKanjiBoardAppDelegate.h; sourceTree = "<group>"; };
+		181FF96614B1780800361388 /* perKanjiBoardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = perKanjiBoardAppDelegate.m; sourceTree = "<group>"; };
+		181FF96914B1780800361388 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		181FF96C14B1780800361388 /* perKanjiBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = perKanjiBoard.xcdatamodel; sourceTree = "<group>"; };
+		181FF97314B1780800361388 /* perKanjiBoardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = perKanjiBoardTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181FF97C14B1780800361388 /* perKanjiBoardTests-Info.plist */ = {isa = PBXFileReference; path = "perKanjiBoardTests-Info.plist"; sourceTree = "<group>"; };
+		181FF97E14B1780800361388 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		181FF98014B1780800361388 /* perKanjiBoardTests-Prefix.pch */ = {isa = PBXFileReference; path = "perKanjiBoardTests-Prefix.pch"; sourceTree = "<group>"; };
+		181FF98114B1780800361388 /* perKanjiBoardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = perKanjiBoardTests.h; sourceTree = "<group>"; };
+		181FF98314B1780800361388 /* perKanjiBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = perKanjiBoardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181FF94D14B1780700361388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181FF95514B1780700361388 /* UIKit.framework in Frameworks */,
+				181FF95714B1780700361388 /* Foundation.framework in Frameworks */,
+				181FF95914B1780700361388 /* CoreGraphics.framework in Frameworks */,
+				181FF95B14B1780700361388 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181FF96F14B1780800361388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181FF97414B1780800361388 /* UIKit.framework in Frameworks */,
+				181FF97514B1780800361388 /* Foundation.framework in Frameworks */,
+				181FF97614B1780800361388 /* CoreGraphics.framework in Frameworks */,
+				181FF97714B1780800361388 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181FF94514B1780700361388 = {
+			isa = PBXGroup;
+			children = (
+				181FF95C14B1780700361388 /* perKanjiBoard */,
+				181FF97A14B1780800361388 /* perKanjiBoardTests */,
+				181FF95314B1780700361388 /* Frameworks */,
+				181FF95114B1780700361388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181FF95114B1780700361388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181FF95014B1780700361388 /* perKanjiBoard.app */,
+				181FF97314B1780800361388 /* perKanjiBoardTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181FF95314B1780700361388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				181FF95414B1780700361388 /* UIKit.framework */,
+				181FF95614B1780700361388 /* Foundation.framework */,
+				181FF95814B1780700361388 /* CoreGraphics.framework */,
+				181FF95A14B1780700361388 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		181FF95C14B1780700361388 /* perKanjiBoard */ = {
+			isa = PBXGroup;
+			children = (
+				181FF96514B1780800361388 /* perKanjiBoardAppDelegate.h */,
+				181FF96614B1780800361388 /* perKanjiBoardAppDelegate.m */,
+				181FF96814B1780800361388 /* MainWindow.xib */,
+				181FF96B14B1780800361388 /* perKanjiBoard.xcdatamodeld */,
+				181FF95D14B1780800361388 /* Supporting Files */,
+			);
+			path = perKanjiBoard;
+			sourceTree = "<group>";
+		};
+		181FF95D14B1780800361388 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181FF95E14B1780800361388 /* perKanjiBoard-Info.plist */,
+				181FF95F14B1780800361388 /* InfoPlist.strings */,
+				181FF96214B1780800361388 /* perKanjiBoard-Prefix.pch */,
+				181FF96314B1780800361388 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181FF97A14B1780800361388 /* perKanjiBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				181FF98114B1780800361388 /* perKanjiBoardTests.h */,
+				181FF98314B1780800361388 /* perKanjiBoardTests.m */,
+				181FF97B14B1780800361388 /* Supporting Files */,
+			);
+			path = perKanjiBoardTests;
+			sourceTree = "<group>";
+		};
+		181FF97B14B1780800361388 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181FF97C14B1780800361388 /* perKanjiBoardTests-Info.plist */,
+				181FF97D14B1780800361388 /* InfoPlist.strings */,
+				181FF98014B1780800361388 /* perKanjiBoardTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181FF94F14B1780700361388 /* perKanjiBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181FF98714B1780800361388 /* Build configuration list for PBXNativeTarget "perKanjiBoard" */;
+			buildPhases = (
+				181FF94C14B1780700361388 /* Sources */,
+				181FF94D14B1780700361388 /* Frameworks */,
+				181FF94E14B1780700361388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = perKanjiBoard;
+			productName = perKanjiBoard;
+			productReference = 181FF95014B1780700361388 /* perKanjiBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181FF97214B1780800361388 /* perKanjiBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181FF98A14B1780800361388 /* Build configuration list for PBXNativeTarget "perKanjiBoardTests" */;
+			buildPhases = (
+				181FF96E14B1780800361388 /* Sources */,
+				181FF96F14B1780800361388 /* Frameworks */,
+				181FF97014B1780800361388 /* Resources */,
+				181FF97114B1780800361388 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181FF97914B1780800361388 /* PBXTargetDependency */,
+			);
+			name = perKanjiBoardTests;
+			productName = perKanjiBoardTests;
+			productReference = 181FF97314B1780800361388 /* perKanjiBoardTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181FF94714B1780700361388 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 181FF94A14B1780700361388 /* Build configuration list for PBXProject "perKanjiBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 181FF94514B1780700361388;
+			productRefGroup = 181FF95114B1780700361388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181FF94F14B1780700361388 /* perKanjiBoard */,
+				181FF97214B1780800361388 /* perKanjiBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181FF94E14B1780700361388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181FF96114B1780800361388 /* InfoPlist.strings in Resources */,
+				181FF96A14B1780800361388 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181FF97014B1780800361388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181FF97F14B1780800361388 /* InfoPlist.strings in Resources */,
+				181FF98214B1780800361388 /* perKanjiBoardTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		181FF97114B1780800361388 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181FF94C14B1780700361388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181FF96414B1780800361388 /* main.m in Sources */,
+				181FF96714B1780800361388 /* perKanjiBoardAppDelegate.m in Sources */,
+				181FF96D14B1780800361388 /* perKanjiBoard.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181FF96E14B1780800361388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181FF98414B1780800361388 /* perKanjiBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181FF97914B1780800361388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181FF94F14B1780700361388 /* perKanjiBoard */;
+			targetProxy = 181FF97814B1780800361388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181FF95F14B1780800361388 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181FF96014B1780800361388 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		181FF96814B1780800361388 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181FF96914B1780800361388 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		181FF97D14B1780800361388 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181FF97E14B1780800361388 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181FF98514B1780800361388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		181FF98614B1780800361388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		181FF98814B1780800361388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "perKanjiBoard/perKanjiBoard-Prefix.pch";
+				INFOPLIST_FILE = "perKanjiBoard/perKanjiBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		181FF98914B1780800361388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "perKanjiBoard/perKanjiBoard-Prefix.pch";
+				INFOPLIST_FILE = "perKanjiBoard/perKanjiBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		181FF98B14B1780800361388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/perKanjiBoard.app/perKanjiBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "perKanjiBoardTests/perKanjiBoardTests-Prefix.pch";
+				INFOPLIST_FILE = "perKanjiBoardTests/perKanjiBoardTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		181FF98C14B1780800361388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/perKanjiBoard.app/perKanjiBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "perKanjiBoardTests/perKanjiBoardTests-Prefix.pch";
+				INFOPLIST_FILE = "perKanjiBoardTests/perKanjiBoardTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181FF94A14B1780700361388 /* Build configuration list for PBXProject "perKanjiBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181FF98514B1780800361388 /* Debug */,
+				181FF98614B1780800361388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181FF98714B1780800361388 /* Build configuration list for PBXNativeTarget "perKanjiBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181FF98814B1780800361388 /* Debug */,
+				181FF98914B1780800361388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		181FF98A14B1780800361388 /* Build configuration list for PBXNativeTarget "perKanjiBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181FF98B14B1780800361388 /* Debug */,
+				181FF98C14B1780800361388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		181FF96B14B1780800361388 /* perKanjiBoard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				181FF96C14B1780800361388 /* perKanjiBoard.xcdatamodel */,
+			);
+			currentVersion = 181FF96C14B1780800361388 /* perKanjiBoard.xcdatamodel */;
+			path = perKanjiBoard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 181FF94714B1780700361388 /* Project object */;
+}
