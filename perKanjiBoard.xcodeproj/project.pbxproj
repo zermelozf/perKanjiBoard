@@ -23,6 +23,32 @@
 		181FF97F14B1780800361388 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181FF97D14B1780800361388 /* InfoPlist.strings */; };
 		181FF98214B1780800361388 /* perKanjiBoardTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 181FF98114B1780800361388 /* perKanjiBoardTests.h */; };
 		181FF98414B1780800361388 /* perKanjiBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF98314B1780800361388 /* perKanjiBoardTests.m */; };
+		181FF9A314B1904A00361388 /* Kanji.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF9A214B1904A00361388 /* Kanji.m */; };
+		181FFA0514B1BDD700361388 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FFA0314B1BDD700361388 /* MenuViewController.m */; };
+		181FFA0614B1BDD700361388 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181FFA0414B1BDD700361388 /* MenuViewController.xib */; };
+		182BE4D714B48DAB00FDA67A /* KANJI.xml in Resources */ = {isa = PBXBuildFile; fileRef = 182BE4D614B48DAB00FDA67A /* KANJI.xml */; };
+		18304CD115CF64D100206926 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 18304CD015CF64D100206926 /* about.html */; };
+		187D04CD14B3259700BBA356 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D04CC14B3259700BBA356 /* XMLParser.m */; };
+		187D04EA14B3452A00BBA356 /* KanjiListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D04E814B3452A00BBA356 /* KanjiListViewController.m */; };
+		187D04EB14B3452A00BBA356 /* KanjiListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187D04E914B3452A00BBA356 /* KanjiListViewController.xib */; };
+		187D051614B368EA00BBA356 /* KanjiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D050F14B368EA00BBA356 /* KanjiViewController.m */; };
+		187D051714B368EA00BBA356 /* KanjiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187D051014B368EA00BBA356 /* KanjiViewController.xib */; };
+		187D051814B368EA00BBA356 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D051214B368EA00BBA356 /* OptionsViewController.m */; };
+		187D051914B368EA00BBA356 /* OptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187D051314B368EA00BBA356 /* OptionsViewController.xib */; };
+		1881A60B14B42D190047A150 /* TableViewCellWithColumns.m in Sources */ = {isa = PBXBuildFile; fileRef = 1881A60A14B42D190047A150 /* TableViewCellWithColumns.m */; };
+		1881A61714B433C00047A150 /* JLPTSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1881A61614B433C00047A150 /* JLPTSchedule.m */; };
+		18913C2B15562E1E004A0863 /* appIconKB@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18913C2A15562E1E004A0863 /* appIconKB@2x.png */; };
+		18913C2D15562E51004A0863 /* appIconKB@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18913C2C15562E51004A0863 /* appIconKB@2x.png */; };
+		18913C331556343C004A0863 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18913C311556343C004A0863 /* AboutViewController.m */; };
+		18913C341556343C004A0863 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18913C321556343C004A0863 /* AboutViewController.xib */; };
+		18A9550614B6C34300F53AF8 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9550414B6C34300F53AF8 /* MenuTableViewController.m */; };
+		18A9550714B6C34300F53AF8 /* MenuTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A9550514B6C34300F53AF8 /* MenuTableViewController.xib */; };
+		18A9552214B826A700F53AF8 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A9552114B826A700F53AF8 /* background@2x.png */; };
+		18A9552614B827CA00F53AF8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A9552514B827C900F53AF8 /* Default@2x.png */; };
+		18A9552914B838A900F53AF8 /* btn-green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A9552714B838A900F53AF8 /* btn-green@2x.png */; };
+		18A9552A14B838A900F53AF8 /* btn-red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A9552814B838A900F53AF8 /* btn-red@2x.png */; };
+		18A9552C14B83BD700F53AF8 /* btn-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A9552B14B83BD700F53AF8 /* btn-selected@2x.png */; };
+		18A9552E14B8463900F53AF8 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A9552D14B8463800F53AF8 /* splash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,25 +62,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		181FF95014B1780700361388 /* perKanjiBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = perKanjiBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181FF95414B1780700361388 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		181FF95614B1780700361388 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		181FF95814B1780700361388 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		181FF95A14B1780700361388 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		181FF95E14B1780800361388 /* perKanjiBoard-Info.plist */ = {isa = PBXFileReference; path = "perKanjiBoard-Info.plist"; sourceTree = "<group>"; };
+		181FF95E14B1780800361388 /* perKanjiBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "perKanjiBoard-Info.plist"; sourceTree = "<group>"; };
 		181FF96014B1780800361388 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		181FF96214B1780800361388 /* perKanjiBoard-Prefix.pch */ = {isa = PBXFileReference; path = "perKanjiBoard-Prefix.pch"; sourceTree = "<group>"; };
+		181FF96214B1780800361388 /* perKanjiBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "perKanjiBoard-Prefix.pch"; sourceTree = "<group>"; };
 		181FF96314B1780800361388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		181FF96514B1780800361388 /* perKanjiBoardAppDelegate.h */ = {isa = PBXFileReference; path = perKanjiBoardAppDelegate.h; sourceTree = "<group>"; };
+		181FF96514B1780800361388 /* perKanjiBoardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = perKanjiBoardAppDelegate.h; sourceTree = "<group>"; };
 		181FF96614B1780800361388 /* perKanjiBoardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = perKanjiBoardAppDelegate.m; sourceTree = "<group>"; };
 		181FF96914B1780800361388 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		181FF96C14B1780800361388 /* perKanjiBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = perKanjiBoard.xcdatamodel; sourceTree = "<group>"; };
-		181FF97314B1780800361388 /* perKanjiBoardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = perKanjiBoardTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		181FF97C14B1780800361388 /* perKanjiBoardTests-Info.plist */ = {isa = PBXFileReference; path = "perKanjiBoardTests-Info.plist"; sourceTree = "<group>"; };
+		181FF97C14B1780800361388 /* perKanjiBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "perKanjiBoardTests-Info.plist"; sourceTree = "<group>"; };
 		181FF97E14B1780800361388 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		181FF98014B1780800361388 /* perKanjiBoardTests-Prefix.pch */ = {isa = PBXFileReference; path = "perKanjiBoardTests-Prefix.pch"; sourceTree = "<group>"; };
+		181FF98014B1780800361388 /* perKanjiBoardTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "perKanjiBoardTests-Prefix.pch"; sourceTree = "<group>"; };
 		181FF98114B1780800361388 /* perKanjiBoardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = perKanjiBoardTests.h; sourceTree = "<group>"; };
 		181FF98314B1780800361388 /* perKanjiBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = perKanjiBoardTests.m; sourceTree = "<group>"; };
+		181FF9A114B1904A00361388 /* Kanji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kanji.h; sourceTree = "<group>"; };
+		181FF9A214B1904A00361388 /* Kanji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kanji.m; sourceTree = "<group>"; };
+		181FFA0214B1BDD700361388 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		181FFA0314B1BDD700361388 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		181FFA0414B1BDD700361388 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		182BE4D614B48DAB00FDA67A /* KANJI.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KANJI.xml; sourceTree = "<group>"; };
+		18304CD015CF64D100206926 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		187D04CB14B3259700BBA356 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		187D04CC14B3259700BBA356 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		187D04E714B3452A00BBA356 /* KanjiListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KanjiListViewController.h; sourceTree = "<group>"; };
+		187D04E814B3452A00BBA356 /* KanjiListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KanjiListViewController.m; sourceTree = "<group>"; };
+		187D04E914B3452A00BBA356 /* KanjiListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KanjiListViewController.xib; sourceTree = "<group>"; };
+		187D050E14B368EA00BBA356 /* KanjiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KanjiViewController.h; sourceTree = "<group>"; };
+		187D050F14B368EA00BBA356 /* KanjiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KanjiViewController.m; sourceTree = "<group>"; };
+		187D051014B368EA00BBA356 /* KanjiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KanjiViewController.xib; sourceTree = "<group>"; };
+		187D051114B368EA00BBA356 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		187D051214B368EA00BBA356 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		187D051314B368EA00BBA356 /* OptionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsViewController.xib; sourceTree = "<group>"; };
+		1881A60914B42D190047A150 /* TableViewCellWithColumns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCellWithColumns.h; sourceTree = "<group>"; };
+		1881A60A14B42D190047A150 /* TableViewCellWithColumns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCellWithColumns.m; sourceTree = "<group>"; };
+		1881A61514B433C00047A150 /* JLPTSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPTSchedule.h; sourceTree = "<group>"; };
+		1881A61614B433C00047A150 /* JLPTSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPTSchedule.m; sourceTree = "<group>"; };
+		188FAD4D14B46B620013163C /* perKanjiBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = perKanjiBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188FAD4F14B46B620013163C /* perKanjiBoardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = perKanjiBoardTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18913C2A15562E1E004A0863 /* appIconKB@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIconKB@2x.png"; sourceTree = "<group>"; };
+		18913C2C15562E51004A0863 /* appIconKB@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIconKB@2x.png"; sourceTree = "<group>"; };
+		18913C301556343C004A0863 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		18913C311556343C004A0863 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		18913C321556343C004A0863 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		18A9550314B6C34300F53AF8 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		18A9550414B6C34300F53AF8 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		18A9550514B6C34300F53AF8 /* MenuTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewController.xib; sourceTree = "<group>"; };
+		18A9552114B826A700F53AF8 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		18A9552514B827C900F53AF8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		18A9552714B838A900F53AF8 /* btn-green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-green@2x.png"; sourceTree = "<group>"; };
+		18A9552814B838A900F53AF8 /* btn-red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-red@2x.png"; sourceTree = "<group>"; };
+		18A9552B14B83BD700F53AF8 /* btn-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-selected@2x.png"; sourceTree = "<group>"; };
+		18A9552D14B8463800F53AF8 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +148,8 @@
 		181FF94514B1780700361388 = {
 			isa = PBXGroup;
 			children = (
+				18913C2C15562E51004A0863 /* appIconKB@2x.png */,
+				18A9552514B827C900F53AF8 /* Default@2x.png */,
 				181FF95C14B1780700361388 /* perKanjiBoard */,
 				181FF97A14B1780800361388 /* perKanjiBoardTests */,
 				181FF95314B1780700361388 /* Frameworks */,
@@ -96,8 +160,8 @@
 		181FF95114B1780700361388 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				181FF95014B1780700361388 /* perKanjiBoard.app */,
-				181FF97314B1780800361388 /* perKanjiBoardTests.octest */,
+				188FAD4D14B46B620013163C /* perKanjiBoard.app */,
+				188FAD4F14B46B620013163C /* perKanjiBoardTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,7 +183,33 @@
 				181FF96514B1780800361388 /* perKanjiBoardAppDelegate.h */,
 				181FF96614B1780800361388 /* perKanjiBoardAppDelegate.m */,
 				181FF96814B1780800361388 /* MainWindow.xib */,
+				181FFA0214B1BDD700361388 /* MenuViewController.h */,
+				181FFA0314B1BDD700361388 /* MenuViewController.m */,
+				181FFA0414B1BDD700361388 /* MenuViewController.xib */,
+				18A9550314B6C34300F53AF8 /* MenuTableViewController.h */,
+				18A9550414B6C34300F53AF8 /* MenuTableViewController.m */,
+				18A9550514B6C34300F53AF8 /* MenuTableViewController.xib */,
+				187D04E714B3452A00BBA356 /* KanjiListViewController.h */,
+				187D04E814B3452A00BBA356 /* KanjiListViewController.m */,
+				187D04E914B3452A00BBA356 /* KanjiListViewController.xib */,
+				187D050E14B368EA00BBA356 /* KanjiViewController.h */,
+				187D050F14B368EA00BBA356 /* KanjiViewController.m */,
+				187D051014B368EA00BBA356 /* KanjiViewController.xib */,
+				187D051114B368EA00BBA356 /* OptionsViewController.h */,
+				187D051214B368EA00BBA356 /* OptionsViewController.m */,
+				187D051314B368EA00BBA356 /* OptionsViewController.xib */,
+				18913C301556343C004A0863 /* AboutViewController.h */,
+				18913C311556343C004A0863 /* AboutViewController.m */,
+				18913C321556343C004A0863 /* AboutViewController.xib */,
+				1881A60914B42D190047A150 /* TableViewCellWithColumns.h */,
+				1881A60A14B42D190047A150 /* TableViewCellWithColumns.m */,
+				187D04CB14B3259700BBA356 /* XMLParser.h */,
+				187D04CC14B3259700BBA356 /* XMLParser.m */,
 				181FF96B14B1780800361388 /* perKanjiBoard.xcdatamodeld */,
+				181FF9A114B1904A00361388 /* Kanji.h */,
+				181FF9A214B1904A00361388 /* Kanji.m */,
+				1881A61514B433C00047A150 /* JLPTSchedule.h */,
+				1881A61614B433C00047A150 /* JLPTSchedule.m */,
 				181FF95D14B1780800361388 /* Supporting Files */,
 			);
 			path = perKanjiBoard;
@@ -128,10 +218,18 @@
 		181FF95D14B1780800361388 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18913C2A15562E1E004A0863 /* appIconKB@2x.png */,
+				18A9552D14B8463800F53AF8 /* splash.png */,
+				18A9552B14B83BD700F53AF8 /* btn-selected@2x.png */,
+				18A9552714B838A900F53AF8 /* btn-green@2x.png */,
+				18A9552814B838A900F53AF8 /* btn-red@2x.png */,
+				18A9552114B826A700F53AF8 /* background@2x.png */,
+				182BE4D614B48DAB00FDA67A /* KANJI.xml */,
 				181FF95E14B1780800361388 /* perKanjiBoard-Info.plist */,
 				181FF95F14B1780800361388 /* InfoPlist.strings */,
 				181FF96214B1780800361388 /* perKanjiBoard-Prefix.pch */,
 				181FF96314B1780800361388 /* main.m */,
+				18304CD015CF64D100206926 /* about.html */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -173,7 +271,7 @@
 			);
 			name = perKanjiBoard;
 			productName = perKanjiBoard;
-			productReference = 181FF95014B1780700361388 /* perKanjiBoard.app */;
+			productReference = 188FAD4D14B46B620013163C /* perKanjiBoard.app */;
 			productType = "com.apple.product-type.application";
 		};
 		181FF97214B1780800361388 /* perKanjiBoardTests */ = {
@@ -192,7 +290,7 @@
 			);
 			name = perKanjiBoardTests;
 			productName = perKanjiBoardTests;
-			productReference = 181FF97314B1780800361388 /* perKanjiBoardTests.octest */;
+			productReference = 188FAD4F14B46B620013163C /* perKanjiBoardTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -225,6 +323,22 @@
 			files = (
 				181FF96114B1780800361388 /* InfoPlist.strings in Resources */,
 				181FF96A14B1780800361388 /* MainWindow.xib in Resources */,
+				181FFA0614B1BDD700361388 /* MenuViewController.xib in Resources */,
+				187D04EB14B3452A00BBA356 /* KanjiListViewController.xib in Resources */,
+				187D051714B368EA00BBA356 /* KanjiViewController.xib in Resources */,
+				187D051914B368EA00BBA356 /* OptionsViewController.xib in Resources */,
+				182BE4D714B48DAB00FDA67A /* KANJI.xml in Resources */,
+				18A9550714B6C34300F53AF8 /* MenuTableViewController.xib in Resources */,
+				18A9552214B826A700F53AF8 /* background@2x.png in Resources */,
+				18A9552614B827CA00F53AF8 /* Default@2x.png in Resources */,
+				18A9552914B838A900F53AF8 /* btn-green@2x.png in Resources */,
+				18A9552A14B838A900F53AF8 /* btn-red@2x.png in Resources */,
+				18A9552C14B83BD700F53AF8 /* btn-selected@2x.png in Resources */,
+				18A9552E14B8463900F53AF8 /* splash.png in Resources */,
+				18913C2B15562E1E004A0863 /* appIconKB@2x.png in Resources */,
+				18913C2D15562E51004A0863 /* appIconKB@2x.png in Resources */,
+				18913C341556343C004A0863 /* AboutViewController.xib in Resources */,
+				18304CD115CF64D100206926 /* about.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +377,16 @@
 				181FF96414B1780800361388 /* main.m in Sources */,
 				181FF96714B1780800361388 /* perKanjiBoardAppDelegate.m in Sources */,
 				181FF96D14B1780800361388 /* perKanjiBoard.xcdatamodeld in Sources */,
+				181FF9A314B1904A00361388 /* Kanji.m in Sources */,
+				181FFA0514B1BDD700361388 /* MenuViewController.m in Sources */,
+				187D04CD14B3259700BBA356 /* XMLParser.m in Sources */,
+				187D04EA14B3452A00BBA356 /* KanjiListViewController.m in Sources */,
+				187D051614B368EA00BBA356 /* KanjiViewController.m in Sources */,
+				187D051814B368EA00BBA356 /* OptionsViewController.m in Sources */,
+				1881A60B14B42D190047A150 /* TableViewCellWithColumns.m in Sources */,
+				1881A61714B433C00047A150 /* JLPTSchedule.m in Sources */,
+				18A9550614B6C34300F53AF8 /* MenuTableViewController.m in Sources */,
+				18913C331556343C004A0863 /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +559,7 @@
 				181FF98914B1780800361388 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181FF98A14B1780800361388 /* Build configuration list for PBXNativeTarget "perKanjiBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +568,7 @@
 				181FF98C14B1780800361388 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

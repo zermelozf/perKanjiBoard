@@ -7,6 +7,9 @@
 //
 
 #import "perKanjiBoardAppDelegate.h"
+#import "MenuViewController.h"
+#import "XMLParser.h"
+#import "JLPTSchedule.h"
 
 @implementation perKanjiBoardAppDelegate
 
@@ -19,11 +22,69 @@
 
 @synthesize persistentStoreCoordinator=__persistentStoreCoordinator;
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    // Check First Launch
+    //[self resetPersistentStore];
+    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"perKanjiBoard.sqlite"];
+    NSFileManager * fileManager = [[NSFileManager alloc] init];
+    if (![fileManager fileExistsAtPath:storeURL.path]) {
+        [self createPersistentStore];
+        NSLog(@"Reseted");
+    }
+    
+    MenuViewController * menuVC = [[MenuViewController alloc] init];
+    menuVC.managedObjectContext = [self managedObjectContext];
+    
+    UINavigationController * navController = [[UINavigationController alloc] initWithRootViewController:menuVC];
+    navController.navigationBar.tintColor = [UIColor redColor];
+    
+    [self.window addSubview:navController.view];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void) createPersistentStore {
+    // Kanji
+    XMLParser * xmlParser = [[XMLParser alloc] init];
+    xmlParser.managedObjectContext = self.managedObjectContext;
+    [xmlParser listFromXmlFile:@"KANJI"];
+    
+    // Schedule
+    JLPTSchedule * jlptSchedule = (JLPTSchedule *)[NSEntityDescription insertNewObjectForEntityForName:@"JLPTSchedule" inManagedObjectContext:self.managedObjectContext];
+    [jlptSchedule setJlpt1:[NSNumber numberWithInteger:40]];
+    [jlptSchedule setJlpt2:[NSNumber numberWithInteger:20]];
+    [jlptSchedule setJlpt3:[NSNumber numberWithInteger:20]];
+    [jlptSchedule setJlpt4:[NSNumber numberWithInteger:10]];
+    [jlptSchedule setJlpt5:[NSNumber numberWithInteger:6]];
+    [jlptSchedule setSpecial:[NSNumber numberWithInteger:90]];
+    
+    // Save Context
+    NSError * error = nil;
+    if (![self.managedObjectContext save:&error]) {
+        // Handle the error.
+        NSLog(@"Error Saving schedule");
+    }
+}
+
+- (void)resetPersistentStore {
+    // Release CoreData chain
+    [__managedObjectContext release];
+    __managedObjectContext = nil;
+    [__managedObjectModel release];
+    __managedObjectModel = nil;
+    [__persistentStoreCoordinator release];
+    __persistentStoreCoordinator = nil;
+    
+    // Delete the sqlite file
+    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"perKanjiBoard.sqlite"];
+    NSError *error = nil;
+    NSFileManager * fileManager = [[NSFileManager alloc] init];
+    if ([fileManager fileExistsAtPath:storeURL.path])
+        [fileManager removeItemAtURL:storeURL error:&error];
+    // handle error...
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

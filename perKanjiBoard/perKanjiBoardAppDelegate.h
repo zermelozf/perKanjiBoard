@@ -20,5 +20,7 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+- (void) resetPersistentStore;
+- (void) createPersistentStore;
 
 @end
