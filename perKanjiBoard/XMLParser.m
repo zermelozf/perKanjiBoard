@@ -114,5 +114,6 @@
 														 delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
     
 	[errorAlert show];
+    [errorAlert release];
 }
 @end

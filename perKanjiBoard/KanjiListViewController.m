@@ -270,13 +270,13 @@
 
 -(IBAction)toKanji:(id)sender {
     NSString *selectedKanjiTitle = [(UIButton *)sender currentTitle];
+    NSString *kanjiLiteralAtIndexk;
+    NSInteger idx;
     if ([selectedKanjiTitle isEqualToString:@" "]) {
         //pass
     }
     else 
     {
-        NSString *kanjiLiteralAtIndexk;
-        NSInteger idx;
         for (int k=0;k<[kanjiList count]; k++) {
             //NSLog(selectedKanjiTitle);
             kanjiLiteralAtIndexk = [NSString stringWithString:[[kanjiList objectAtIndex:k] literal]];

@@ -35,6 +35,7 @@
         [spinner setFrame:CGRectMake(0, 0, 35, 35)];
         [spinner setCenter:CGPointMake(160, 160)];
         [self.view addSubview:spinner];
+        [spinner release];
     } 
     return self;
 }
@@ -83,6 +84,8 @@
     [self.navigationController pushViewController:kanjiListVC animated:YES];
     [spinner stopAnimating];
     [kanjiListVC release];
+    [request release];
+    [entity release];
 }
 
 -(void)toOptions {
@@ -98,6 +101,7 @@
     optionsVC.managedObjectContext = managedObjectContext;
     [self.navigationController pushViewController:optionsVC animated:YES];
     [optionsVC release];
+    [request release];
 }
 
 - (void)toAbout {
